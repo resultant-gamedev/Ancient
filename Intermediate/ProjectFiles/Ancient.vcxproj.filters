@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Ancient.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{5A56AC4C-16EF-47F0-A77F-72186813B718}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Ancient.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\AncientEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{2E85B24D-3094-4766-8292-F122FE9E5EBD}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Ancient">
+			<UniqueIdentifier>{DD4D9972-C65B-4245-97A2-1AA441D18BBB}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Ancient\Ancient.Build.cs">
+			<Filter>Source\Ancient</Filter>
+		</None >
+		<Filter Include="Source\Ancient\Private">
+			<UniqueIdentifier>{53D23323-6414-418A-B308-C337B82D22AE}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Ancient\Private\Ancient.cpp">
+			<Filter>Source\Ancient\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Ancient\Private\AncientCharacter.cpp">
+			<Filter>Source\Ancient\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Ancient\Private\AncientGameMode.cpp">
+			<Filter>Source\Ancient\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\Ancient\Public">
+			<UniqueIdentifier>{D46457E0-752A-4D53-A935-098901E05538}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\Ancient\Public\Ancient.h">
+			<Filter>Source\Ancient\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Ancient\Public\AncientCharacter.h">
+			<Filter>Source\Ancient\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Ancient\Public\AncientGameMode.h">
+			<Filter>Source\Ancient\Public</Filter>
+		</ClInclude >
+		<Filter Include="Source\Ancient\Resources">
+			<UniqueIdentifier>{BCF4C06F-14EF-4E66-8F47-A2A26D98FCB4}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Ancient\Resources\Windows">
+			<UniqueIdentifier>{692B92BA-A6C0-4F5A-9D51-99670E16A3D2}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Ancient\Resources\Windows\Ancient.ico">
+			<Filter>Source\Ancient\Resources\Windows</Filter>
+		</None >
+		<ResourceCompile Include="..\..\Source\Ancient\Resources\Windows\Ancient.rc">
+			<Filter>Source\Ancient\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>

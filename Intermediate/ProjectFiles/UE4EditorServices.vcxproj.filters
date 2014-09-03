@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\Mac\UE4EditorServices\UE4EditorServices.Target.cs" />
+		<None Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\Mac\UE4EditorServices\UE4EditorServices.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{3FCFEB94-FF6B-4EA7-B438-70F0DA74C250}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Private\Mac">
+			<UniqueIdentifier>{57EEFE0F-45A3-467C-B4B2-612D00E775FA}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\Mac\UE4EditorServices\Private\Mac\UE4EditorServicesAppDelegate.cpp">
+			<Filter>Private\Mac</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\Mac\UE4EditorServices\Private\Mac\UE4EditorServicesAppDelegate.h">
+			<Filter>Private\Mac</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\Mac\UE4EditorServices\Private\Mac\UE4EditorServicesMain.cpp">
+			<Filter>Private\Mac</Filter>
+		</ClCompile >
+		<Filter Include="Private\Windows">
+			<UniqueIdentifier>{5CFECBED-D5EF-471A-9AF9-6C4B8768E728}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\Mac\UE4EditorServices\Private\Windows\UE4EditorServicesMain.cpp">
+			<Filter>Private\Windows</Filter>
+		</ClCompile >
+		<Filter Include="Resources">
+			<UniqueIdentifier>{AC4A399C-98F1-4E58-821B-351453EC83E5}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Resources\Mac">
+			<UniqueIdentifier>{8EB0231B-FDC1-445F-8CB3-DD30E29CED2A}</UniqueIdentifier>
+		</Filter>
+		<None Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\Mac\UE4EditorServices\Resources\Mac\Info.plist">
+			<Filter>Resources\Mac</Filter>
+		</None >
+	</ItemGroup>
+</Project>

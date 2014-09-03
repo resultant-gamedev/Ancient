@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{961694F0-4120-3101-C462-2FBAEC65653A}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Ancient",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Target.cs" />
+		<Filter Include="Config">
+			<UniqueIdentifier>{7CA620DA-54C3-46C7-AB0F-CEECFB6BF888}</UniqueIdentifier>
+		</Filter>
+		<None Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Programs\UnrealFrontend\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{4C66BCE6-4DFE-42AD-A7BA-CDAF6A132D27}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendMain.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendMain.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<Filter Include="Private\Linux">
+			<UniqueIdentifier>{8A60B458-0451-49A8-8B5E-1D0121015002}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\UnrealFrontend\Private\Linux\LinuxUnrealFrontendMain.cpp">
+			<Filter>Private\Linux</Filter>
+		</ClCompile >
+		<Filter Include="Private\Mac">
+			<UniqueIdentifier>{9ECB207C-0EEE-45D8-A2B4-3303E5E7E453}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\UnrealFrontend\Private\Mac\MacUnrealFrontendMain.cpp">
+			<Filter>Private\Mac</Filter>
+		</ClCompile >
+		<Filter Include="Private\Windows">
+			<UniqueIdentifier>{F7DC8DD5-FCC5-448D-ABB2-77D37930E3E9}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\UnrealFrontend\Private\Windows\WindowsUnrealFrontendMain.cpp">
+			<Filter>Private\Windows</Filter>
+		</ClCompile >
+		<Filter Include="Resources">
+			<UniqueIdentifier>{4722C157-B2CC-471D-9A5F-2E947EB69735}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Resources\Windows">
+			<UniqueIdentifier>{71A1F6B0-D8D0-446D-994F-06CF376A8952}</UniqueIdentifier>
+		</Filter>
+		<Manifest Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\UnrealFrontend\Resources\Windows\Debug-UnrealFrontend-Win32.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<Manifest Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\UnrealFrontend\Resources\Windows\Debug-UnrealFrontend-Win64.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<Manifest Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend-Win32.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<Manifest Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend-Win64.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<None Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend.ico">
+			<Filter>Resources\Windows</Filter>
+		</None >
+		<ResourceCompile Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend.rc">
+			<Filter>Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>

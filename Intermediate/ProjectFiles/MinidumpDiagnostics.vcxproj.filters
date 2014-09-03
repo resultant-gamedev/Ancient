@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\MinidumpDiagnostics.Target.cs" />
+		<None Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\MinidumpDiagnostics.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{2E959868-683F-4EF8-BA59-4DB253E23EE2}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\Private\MinidumpDiagnosticsApp.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<Filter Include="Private\Windows">
+			<UniqueIdentifier>{C55A5694-BF26-46B7-AD1F-F9DE79F0FDDF}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\Private\Windows\MinidumpDiagnosticsMainWindows.cpp">
+			<Filter>Private\Windows</Filter>
+		</ClCompile >
+		<Filter Include="Public">
+			<UniqueIdentifier>{4E27800D-A878-4853-9CE4-CA9032388822}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\Public\MinidumpDiagnosticsApp.h">
+			<Filter>Public</Filter>
+		</ClInclude >
+		<Filter Include="Resources">
+			<UniqueIdentifier>{0922D0E3-2573-4396-8615-4A2C03D27B0A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Resources\Windows">
+			<UniqueIdentifier>{A02AB339-19B4-446A-9DF9-D4AFB2845B44}</UniqueIdentifier>
+		</Filter>
+		<Manifest Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\Resources\Windows\Debug-PCLaunch-Win32.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<Manifest Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\Resources\Windows\Debug-PCLaunch-Win64.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<Manifest Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\Resources\Windows\PCLaunch-Win32.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<Manifest Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\Resources\Windows\PCLaunch-Win64.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<ResourceCompile Include="D:\GitHub\UnrealEngine\UnrealEngine-4.4\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\Resources\Windows\PCLaunch.rc">
+			<Filter>Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>
