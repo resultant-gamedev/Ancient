@@ -39,52 +39,53 @@ Icon
 *.suo
 *.opensdf
 *.sdf
+*.pdb
 
 # Derived data cache is never checked in
-/Engine/DerivedDataCache/**
+/DerivedDataCache/**
 
 # Engine intermediates
-/Engine/Intermediate/**
-/Engine/Plugins/**/Intermediate/**
+/Intermediate/**
+/Plugins/**/Intermediate/**
 
 # Ignore binary files...
-/Engine/Binaries/**
-/Engine/Plugins/**/Binaries/**
+/Binaries/**
+/Plugins/**/Binaries/**
 
 # Intermediate folders created for various C# programs
-/Engine/Source/Programs/**/obj/**
+/Source/Programs/**/obj/**
 
 # Saved folders for programs should not be checked in
-/Engine/Programs/**/Saved/**
-/Engine/Programs/UnrealBuildTool/**
+/Programs/**/Saved/**
+/Programs/UnrealBuildTool/**
 
 # Ignore various other dependencies that are never checked in
-/Engine/Content/**
-/Engine/Documentation/**
-/Engine/Extras/**
+/Content/**
+/Documentation/**
+/Extras/**
 
 # Ignore any saved local files
-/Engine/Saved/**
+/Saved/**
 
 # Install stamp linux dependencies
-/Engine/Build/BatchFiles/Linux/dependencies.sha1sums.installed
+/Build/BatchFiles/Linux/dependencies.sha1sums.installed
 
 # log files for linux scripts (e.g. BuildThirdParty.sh)
-/Engine/Build/BatchFiles/Linux/*.log
+/Build/BatchFiles/Linux/*.log
 
 # Ignore third party binaries
-/Engine/Source/ThirdParty/**/*.exe
-/Engine/Source/ThirdParty/**/*.pdb
-/Engine/Source/ThirdParty/**/*.lib
-/Engine/Source/ThirdParty/**/*.a
-/Engine/Source/ThirdParty/**/*.obj
-/Engine/Source/ThirdParty/**/*.dll
-/Engine/Source/ThirdParty/**/*.dylib
-/Engine/Source/ThirdParty/**/*.bmp
-/Engine/Source/ThirdParty/**/*.so
-/Engine/Source/ThirdParty/**/*.bsc
-/Engine/Source/ThirdParty/**/*.idb
-/Engine/Source/ThirdParty/**/*.bc
+/Source/ThirdParty/**/*.exe
+/Source/ThirdParty/**/*.pdb
+/Source/ThirdParty/**/*.lib
+/Source/ThirdParty/**/*.a
+/Source/ThirdParty/**/*.obj
+/Source/ThirdParty/**/*.dll
+/Source/ThirdParty/**/*.dylib
+/Source/ThirdParty/**/*.bmp
+/Source/ThirdParty/**/*.so
+/Source/ThirdParty/**/*.bsc
+/Source/ThirdParty/**/*.idb
+/Source/ThirdParty/**/*.bc
 
 # Ignore sample and template projects
 /Samples/**
