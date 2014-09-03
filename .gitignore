@@ -34,3 +34,61 @@ Icon
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+
+
+*.suo
+*.opensdf
+*.sdf
+
+# Derived data cache is never checked in
+/Engine/DerivedDataCache/**
+
+# Engine intermediates
+/Engine/Intermediate/**
+/Engine/Plugins/**/Intermediate/**
+
+# Ignore binary files...
+/Engine/Binaries/**
+/Engine/Plugins/**/Binaries/**
+
+# Intermediate folders created for various C# programs
+/Engine/Source/Programs/**/obj/**
+
+# Saved folders for programs should not be checked in
+/Engine/Programs/**/Saved/**
+/Engine/Programs/UnrealBuildTool/**
+
+# Ignore various other dependencies that are never checked in
+/Engine/Content/**
+/Engine/Documentation/**
+/Engine/Extras/**
+
+# Ignore any saved local files
+/Engine/Saved/**
+
+# Install stamp linux dependencies
+/Engine/Build/BatchFiles/Linux/dependencies.sha1sums.installed
+
+# log files for linux scripts (e.g. BuildThirdParty.sh)
+/Engine/Build/BatchFiles/Linux/*.log
+
+# Ignore third party binaries
+/Engine/Source/ThirdParty/**/*.exe
+/Engine/Source/ThirdParty/**/*.pdb
+/Engine/Source/ThirdParty/**/*.lib
+/Engine/Source/ThirdParty/**/*.a
+/Engine/Source/ThirdParty/**/*.obj
+/Engine/Source/ThirdParty/**/*.dll
+/Engine/Source/ThirdParty/**/*.dylib
+/Engine/Source/ThirdParty/**/*.bmp
+/Engine/Source/ThirdParty/**/*.so
+/Engine/Source/ThirdParty/**/*.bsc
+/Engine/Source/ThirdParty/**/*.idb
+/Engine/Source/ThirdParty/**/*.bc
+
+# Ignore sample and template projects
+/Samples/**
+/Templates/**
+
+# Ignore Unix backup files
+*~
